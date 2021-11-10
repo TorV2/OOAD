@@ -1,3 +1,4 @@
+package ooad;
 public class Payment {
 
   private int PricePaid[];
@@ -9,6 +10,6 @@ public class Payment {
 	}
 
   public String selectPaymentMethod() {
-    
+
 }
 }

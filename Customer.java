@@ -1,4 +1,4 @@
-
+package ooad;
 public class Customer {
 
   private String CustomerName[];

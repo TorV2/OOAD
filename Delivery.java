@@ -1,3 +1,4 @@
+package ooad;
 public class Delivery {
 
   private int OrderNumber[];
@@ -5,7 +6,7 @@ public class Delivery {
   private String NameSender[];
   private String NameRecipient[];
 
-  public Payment(int OrderNumber[], String OrderDeadline[], String NameSender[], String NameRecipient[] ) {
+  public Delivery(int OrderNumber[], String OrderDeadline[], String NameSender[], String NameRecipient[] ) {
 		this.OrderNumber = OrderNumber;
     this.OrderDeadline = OrderDeadline;
     this.NameSender = NameSender;
@@ -14,8 +15,9 @@ public class Delivery {
 
   public String getDeliveryStatus() {
     System.out.println("------Delivery Status------");
-    System.out.println(": " + );
-    System.out.println(": " +  );
-    System.out.println(": " + );
+    //System.out.println(": " + );
+    //System.out.println(": " +  );
+    //System.out.println(": " + );
+    return ;
 }
 }
